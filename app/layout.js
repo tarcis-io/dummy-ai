@@ -1,3 +1,8 @@
+export const metadata = {
+	title       : 'DummyAI',
+	description : 'Artificial intelligence for dummies.'
+};
+
 export default function Layout({ children }) {
 
 	return (
