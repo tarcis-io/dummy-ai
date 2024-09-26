@@ -5,6 +5,7 @@ export default function manifest() {
 		short_name       : 'DummyAI',
 		description      : 'Artificial intelligence for dummies.',
 		start_url        : '/',
+		id               : '/',
 		display          : 'standalone',
 		background_color : '#151515',
 		theme_color      : '#151515',
