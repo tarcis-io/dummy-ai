@@ -1,3 +1,7 @@
+import {
+	App
+} from '../components/app';
+
 export const metadata = {
 	title       : 'DummyAI',
 	description : 'Artificial intelligence for dummies.'
@@ -10,7 +14,11 @@ export default function Layout({ children }) {
 
 			<html lang = { 'en' }>
 
-				<body>{ children }</body>
+				<body>
+
+					<App>{ children }</App>
+
+				</body>
 
 			</html>
 
