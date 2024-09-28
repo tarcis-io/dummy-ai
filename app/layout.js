@@ -12,7 +12,8 @@ export default function Layout({ children }) {
 	return (
 		<>
 
-			<html lang = { 'en' } className = { 'pf-v6-theme-dark' }>
+			<html lang      = { 'en' }
+				  className = { 'pf-v6-theme-dark' }>
 
 				<body>
 
