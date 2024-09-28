@@ -4,7 +4,8 @@ import '@patternfly/react-core/dist/styles/base.css';
 
 import {
 	Masthead,
-	MastheadContent,
+	MastheadBrand,
+	MastheadLogo,
 	MastheadMain,
 	Page,
 	PageSection,
@@ -18,9 +19,20 @@ export function App({ children }) {
 
 			<Masthead>
 
-				<MastheadMain></MastheadMain>
+				<MastheadMain>
 
-				<MastheadContent></MastheadContent>
+					<MastheadBrand>
+
+						<MastheadLogo>
+
+							<img src = { '/images/logos/logo.svg' }
+								 alt = { 'logo' } />
+
+						</MastheadLogo>
+
+					</MastheadBrand>
+
+				</MastheadMain>
 
 			</Masthead>
 
