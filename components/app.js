@@ -9,7 +9,8 @@ import {
 	MastheadMain,
 	Page,
 	PageSection,
-	PageSidebar
+	PageSidebar,
+	Title
 } from '@patternfly/react-core';
 
 export function App({ children }) {
@@ -17,7 +18,7 @@ export function App({ children }) {
 	const masthead = (
 		<>
 
-			<Masthead>
+			<Masthead display = { { default : 'inline' } }>
 
 				<MastheadMain>
 
@@ -27,6 +28,9 @@ export function App({ children }) {
 
 							<img src = { '/images/logos/logo.svg' }
 								 alt = { 'logo' } />
+
+							<Title headingLevel = { 'h2' }
+								   style        = { { display : 'inline', margin : '0px 24px' } }>DummyAI</Title>
 
 						</MastheadLogo>
 
