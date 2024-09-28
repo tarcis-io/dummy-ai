@@ -1,5 +1,7 @@
 'use client';
 
+import '@patternfly/react-core/dist/styles/base.css';
+
 import {
 	Page,
 	PageSection
