@@ -12,9 +12,9 @@ export function App({ children }) {
 	return (
 		<>
 
-			<Page>
+			<Page isContentFilled = { true }>
 
-				<PageSection>{ children }</PageSection>
+				<PageSection isFilled = { true }>{ children }</PageSection>
 
 			</Page>
 
