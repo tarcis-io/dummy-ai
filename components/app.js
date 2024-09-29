@@ -1,9 +1,20 @@
+'use client';
+
+import {
+	Page,
+	PageSection
+} from '@patternfly/react-core';
+
 export default function App({ children }) {
 
 	return (
 		<>
 
-			<div>{ children }</div>
+			<Page>
+
+				<PageSection>{ children }</PageSection>
+
+			</Page>
 
 		</>
 	);
