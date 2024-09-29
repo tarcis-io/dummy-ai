@@ -1,7 +1,10 @@
 'use client';
 
 import {
-	Masthead
+	Masthead,
+	MastheadBrand,
+	MastheadLogo,
+	MastheadMain
 } from '@patternfly/react-core';
 
 export default function AppMasthead() {
@@ -9,7 +12,19 @@ export default function AppMasthead() {
 	return (
 		<>
 
-			<Masthead></Masthead>
+			<Masthead>
+
+				<MastheadMain>
+
+					<MastheadBrand>
+
+						<MastheadLogo></MastheadLogo>
+
+					</MastheadBrand>
+
+				</MastheadMain>
+
+			</Masthead>
 
 		</>
 	);
