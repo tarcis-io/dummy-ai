@@ -1,16 +1,29 @@
 'use client';
 
 import {
+	Masthead,
 	Page,
 	PageSection
 } from '@patternfly/react-core';
+
+export function AppMasthead() {
+
+	return (
+		<>
+
+			<Masthead></Masthead>
+
+		</>
+	);
+};
 
 export function App({ children }) {
 
 	return (
 		<>
 
-			<Page isContentFilled = { true }>
+			<Page masthead        = { <AppMasthead /> }
+				  isContentFilled = { true }>
 
 				<PageSection isFilled = { true }>{ children }</PageSection>
 
