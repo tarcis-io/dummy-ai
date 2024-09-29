@@ -1,6 +1,8 @@
 'use client';
 
 import '@patternfly/react-core/dist/styles/base.css';
+import '@patternfly/react-styles/css/utilities/Display/display.css';
+import '@patternfly/react-styles/css/utilities/Spacing/spacing.css';
 
 import {
 	Masthead,
@@ -30,7 +32,8 @@ export function App({ children }) {
 								 alt = { 'logo' } />
 
 							<Title headingLevel = { 'h2' }
-								   style        = { { display : 'inline', margin : '0px 24px' } }>DummyAI</Title>
+								   className    = { 'pf-v6-u-display-inline pf-v6-u-mx-lg' }
+								   style        = { { margin : '0px 24px' } }>DummyAI</Title>
 
 						</MastheadLogo>
 
