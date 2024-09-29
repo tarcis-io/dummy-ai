@@ -1,3 +1,7 @@
+import '@patternfly/react-core/dist/styles/base.css';
+import '@patternfly/react-styles/css/utilities/Display/display.css';
+import '@patternfly/react-styles/css/utilities/Spacing/spacing.css';
+
 import {
 	App
 } from '../components/app';
