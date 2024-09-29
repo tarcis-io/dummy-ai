@@ -4,7 +4,8 @@ import {
 	Masthead,
 	MastheadBrand,
 	MastheadLogo,
-	MastheadMain
+	MastheadMain,
+	Title
 } from '@patternfly/react-core';
 
 export default function AppMasthead() {
@@ -18,7 +19,11 @@ export default function AppMasthead() {
 
 					<MastheadBrand>
 
-						<MastheadLogo></MastheadLogo>
+						<MastheadLogo>
+
+							<Title headingLevel = { 'h2' }>DummyAI</Title>
+
+						</MastheadLogo>
 
 					</MastheadBrand>
 
