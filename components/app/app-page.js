@@ -5,12 +5,15 @@ import {
 	PageSection
 } from '@patternfly/react-core';
 
+import AppMasthead from './app-masthead';
+
 export default function AppPage({ children }) {
 
 	return (
 		<>
 
-			<Page isContentFilled = { true }>
+			<Page masthead        = { <AppMasthead /> }
+				  isContentFilled = { true }>
 
 				<PageSection isFilled = { true }>{ children }</PageSection>
 
