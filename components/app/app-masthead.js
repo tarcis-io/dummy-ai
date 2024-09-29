@@ -21,6 +21,9 @@ export default function AppMasthead() {
 
 						<MastheadLogo>
 
+							<img src = { '/images/logos/logo.svg' }
+								 alt = { '' } />
+
 							<Title headingLevel = { 'h2' }>DummyAI</Title>
 
 						</MastheadLogo>
