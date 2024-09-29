@@ -5,7 +5,7 @@ import {
 	PageSection
 } from '@patternfly/react-core';
 
-export default function App({ children }) {
+export function App({ children }) {
 
 	return (
 		<>
