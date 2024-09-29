@@ -13,7 +13,7 @@ export default function AppMasthead() {
 	return (
 		<>
 
-			<Masthead>
+			<Masthead display = { { default : 'inline' } }>
 
 				<MastheadMain>
 
