@@ -24,7 +24,8 @@ export default function AppMasthead() {
 							<img src = { '/images/logos/logo.svg' }
 								 alt = { '' } />
 
-							<Title headingLevel = { 'h2' }>DummyAI</Title>
+							<Title className    = { 'pf-v6-u-display-inline pf-v6-u-mx-lg' }
+								   headingLevel = { 'h2' }>DummyAI</Title>
 
 						</MastheadLogo>
 
