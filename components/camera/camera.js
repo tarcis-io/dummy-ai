@@ -1,24 +1,27 @@
 'use client';
 
+import {
+	useState
+} from 'react';
+
+import {
+	Card
+} from '@patternfly/react-core';
+
+import CameraIsLoading from './camera-is-loading';
+
 export default function Camera() {
 
-	const mediaStreamConstraints = {
-		audio : true,
-		video : true
-	};
-
-	navigator.mediaDevices.getUserMedia(mediaStreamConstraints).then(mediaStream => {
-
-		const video = document.getElementById('video');
-		video.srcObject = mediaStream;
-	});
+	const [isLoading, setIsLoading] = useState(true);
 
 	return (
 		<>
 
-			<video id       = { 'video' }
-				   autoPlay = { true }
-				   muted    = { true }></video>
+			<Card>
+
+				<CameraIsLoading />
+
+			</Card>
 
 		</>
 	);
