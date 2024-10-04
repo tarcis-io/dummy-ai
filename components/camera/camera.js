@@ -12,7 +12,11 @@ import CameraIsLoading from './camera-is-loading';
 
 export default function Camera() {
 
-	const [isLoading, setIsLoading] = useState(true);
+	const Status = {
+		LOADING : 'loading'
+	};
+
+	const [status, setStatus] = useState(Status.LOADING);
 
 	return (
 		<>
