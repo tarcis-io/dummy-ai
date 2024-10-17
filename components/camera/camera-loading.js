@@ -1,9 +1,19 @@
+'use client';
+
+import {
+	Card
+} from '@patternfly/react-core';
+
 export default function CameraLoading() {
 
 	return (
 		<>
 
-			<div>Camera Loading</div>
+			<Card>
+
+				<div>Camera Loading</div>
+
+			</Card>
 
 		</>
 	);
