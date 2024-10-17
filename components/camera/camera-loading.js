@@ -12,7 +12,7 @@ export default function CameraLoading() {
 
 			<Card>
 
-				<Spinner />
+				<Spinner aria-label = { 'Camera is loading...' } />
 
 			</Card>
 
