@@ -1,7 +1,8 @@
 'use client';
 
 import {
-	Card
+	Card,
+	Spinner
 } from '@patternfly/react-core';
 
 export default function CameraLoading() {
@@ -11,7 +12,7 @@ export default function CameraLoading() {
 
 			<Card>
 
-				<div>Camera Loading</div>
+				<Spinner />
 
 			</Card>
 
