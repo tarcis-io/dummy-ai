@@ -1,9 +1,11 @@
+import CameraLoading from './camera-loading';
+
 export default function Camera() {
 
 	return (
 		<>
 
-			<div>Camera</div>
+			<CameraLoading />
 
 		</>
 	);
