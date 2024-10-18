@@ -1,6 +1,7 @@
 'use client';
 
 import {
+	Bullseye,
 	Card,
 	CardBody,
 	Spinner
@@ -15,8 +16,12 @@ export default function CameraLoading() {
 
 				<CardBody>
 
-					<Spinner size       = { 'lg' }
-							 aria-label = { 'Camera is loading...' } />
+					<Bullseye>
+
+						<Spinner size       = { 'lg' }
+								 aria-label = { 'Camera is loading...' } />
+
+					</Bullseye>
 
 				</CardBody>
 
