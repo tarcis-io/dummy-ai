@@ -19,7 +19,7 @@ export default function CameraLoading() {
 					<Bullseye>
 
 						<Spinner size       = { 'lg' }
-								 aria-label = { 'Camera is loading...' } />
+								 aria-label = { 'Loading camera...' } />
 
 					</Bullseye>
 
