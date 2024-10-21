@@ -6,7 +6,8 @@ export default function Camera() {
 	return (
 		<>
 
-			<CameraError />
+			<CameraError title = { 'Error...' }
+						 text  = { 'Camera Error!' } />
 
 		</>
 	);

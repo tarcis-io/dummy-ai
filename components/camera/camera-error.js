@@ -1,9 +1,9 @@
-export default function CameraError() {
+export default function CameraError({ title, text }) {
 
 	return (
 		<>
 
-			<div>Camera Error</div>
+			<div>{ title } - { text }</div>
 
 		</>
 	);
