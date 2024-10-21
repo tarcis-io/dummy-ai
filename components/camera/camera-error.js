@@ -1,9 +1,20 @@
+'use client';
+
+import {
+	Alert
+} from '@patternfly/react-core';
+
 export default function CameraError({ title, text }) {
 
 	return (
 		<>
 
-			<div>{ title } - { text }</div>
+			<Alert variant = { 'danger' }
+				   title   = { title }>
+
+				<p>{ text }</p>
+
+			</Alert>
 
 		</>
 	);
