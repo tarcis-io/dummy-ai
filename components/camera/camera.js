@@ -4,6 +4,8 @@ import {
 	useState
 } from 'react';
 
+import CameraLoading from './camera-loading';
+
 export default function Camera() {
 
 	const Status = {
@@ -11,6 +13,17 @@ export default function Camera() {
 	};
 
 	const [status, setStatus] = useState(Status.LOADING);
+
+	if (status === Status.LOADING) {
+
+		return (
+			<>
+
+				<CameraLoading />
+
+			</>
+		);
+	}
 
 	return (
 		<>
